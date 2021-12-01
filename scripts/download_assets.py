@@ -6,7 +6,7 @@ counter = 0
 dupe_count = 0
 digest={}
 
-with open('data/gifs_white_listed.ndjson') as infile:
+with open('data/gifs_allow_listed.ndjson') as infile:
 	for line in infile:
 
 		data = json.loads(line)
